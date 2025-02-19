@@ -12,7 +12,7 @@ from typing import (
 )
 
 from pydantic import BaseModel
-from xena_rfc_core.core.exceptions import InvalidPluginError
+from xoa_core.core.exceptions import InvalidPluginError
 if TYPE_CHECKING:
     from types import ModuleType
 

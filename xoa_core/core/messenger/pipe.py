@@ -7,7 +7,7 @@ from typing import (
     Final,
 )
 
-from xena_rfc_core.core.generic_types import TObserver
+from xoa_core.core.generic_types import TObserver
 from . import misc
 
 

@@ -1,5 +1,5 @@
 Understanding Xena Python RFC Core
-=======================
+==================================
 
 .. toctree::
 

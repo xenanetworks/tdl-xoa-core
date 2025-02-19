@@ -1,12 +1,12 @@
 from __future__ import annotations
 import typing
-from xena_rfc_core.core.utils import observer
-from xena_rfc_core.core import exceptions
+from xoa_core.core.utils import observer
+from xoa_core.core import exceptions
 from .executor_info import ExecutorInfo
 from .executor import SuiteExecutor
 from ._events import Event
 
-from xena_rfc_core.core.generic_types import TMesagesPipe
+from xoa_core.core.generic_types import TMesagesPipe
 
 
 class ExecutorsManager:

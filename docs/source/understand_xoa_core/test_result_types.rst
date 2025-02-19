@@ -1,7 +1,7 @@
 Test Result Types
 =================
 
-Xena Python RFC Core sends test result data (in json format) to your code as shown in the example below. It is up to you to decide how to process them, either `parse JSON into Python dictionary <https://docs.python.org/3/library/json.html>`_, display in your console, or store them into a file.
+XOA Core sends test result data (in json format) to your code as shown in the example below. It is up to you to decide how to process them, either `parse JSON into Python dictionary <https://docs.python.org/3/library/json.html>`_, display in your console, or store them into a file.
 
 .. code-block:: python
     :caption: Receive test result data
@@ -10,7 +10,7 @@ Xena Python RFC Core sends test result data (in json format) to your code as sho
         print(stats_data)
 
 
-There are three types of test result data (JSON format) that you receive from Xena Python RFC Core. 
+There are three types of test result data (JSON format) that you receive from XOA Core. 
 
 * Live test result data
 

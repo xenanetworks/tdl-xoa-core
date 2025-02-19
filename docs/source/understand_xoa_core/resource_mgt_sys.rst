@@ -13,10 +13,4 @@ The key functionality is represented in managing and monitoring the state of kno
 * Disconnect from testers
 * Get the list of available testers
 
-You can find the corresponding APIs in :doc:`../api_ref/index`
-
-Under the hood, Xena Python RFC Core uses the instance of `xoa_driver <https://pypi.org/project/xoa-driver/>`_ library as a representation of the resource. 
-
-.. note::
-
-    `XOA Python API <https://github.com/xenanetworks/open-automation-python-api>`_ (PyPI package name `xoa_driver <https://pypi.org/project/xoa-driver/>`_) is treated as a 3rd-party dependency, thus its source code is not included in Xena Python RFC Core.
+Under the hood, XOA Core uses the instance of `tdl-xoa-driver <https://pypi.org/project/tdl-xoa-driver/>`_ library as a representation of the resource. 

@@ -6,7 +6,7 @@ from typing import (
     Set,
     AsyncGenerator
 )
-from xena_rfc_core.core.utils import observer
+from xoa_core.core.utils import observer
 from .pipe import MesagesPipe
 from . import misc
 

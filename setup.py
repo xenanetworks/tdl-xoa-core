@@ -6,7 +6,7 @@ def main() -> None:
         long_description = fh.read()
 
     setuptools.setup(
-        name="xena-rfc-core",
+        name="tdl-xoa-core",
         description="Xena Python RFC framework for Xena test suite execution, integration, and development.",
         long_description=long_description,
         long_description_content_type="text/markdown",
@@ -14,10 +14,10 @@ def main() -> None:
         author_email="leonard.yu@teledyne.com",
         maintainer="Teledyne LeCroy Xena",
         maintainer_email="support@xenanetworks.com",
-        url="https://github.com/xenanetworks/xena-python-rfc-core",
+        url="https://github.com/xenanetworks/tdl-xoa-core",
         packages=setuptools.find_packages(),
         license='Apache 2.0',
-        install_requires=["xena-driver", "pydantic==1.10.2", "semver", "oyaml",],
+        install_requires=["tdl-xoa-driver", "pydantic==1.10.2", "semver", "oyaml",],
         classifiers=[
             "Development Status :: 5 - Production/Stable",
             "Intended Audience :: Developers",

@@ -10,7 +10,7 @@ from typing import (
     Coroutine,
 )
 from xoa_driver.testers import GenericAnyTester
-from xena_rfc_core.core.utils.observer import SimpleObserver
+from xoa_core.core.utils.observer import SimpleObserver
 
 from . import const
 from . import (

@@ -19,7 +19,7 @@ Let's create a folder called ``/my_xoa_project``
 
 
 Install Xena Python RFC Core
-----------------
+-----------------------------
 
 After creating the folder, you can either choose to :ref:`install Xena Python RFC Core in a Python virtual environment <install_core_venv>` or :ref:`install in your global namespace <install_core_global>` .
 

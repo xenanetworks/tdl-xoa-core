@@ -1,4 +1,4 @@
-from xena_rfc_core import __version__
+from xoa_core import __version__
 
 
 class TestSuiteNotExistError(Exception):

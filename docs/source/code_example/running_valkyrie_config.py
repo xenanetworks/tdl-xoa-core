@@ -1,6 +1,6 @@
 from __future__ import annotations
 import sys
-from xena_rfc_core import (
+from xoa_core import (
     controller,
     types,
 )
@@ -9,8 +9,8 @@ import json
 from pathlib import Path
 # XOA Converter is an independent module and it needs to be installed via `pip install xoa-converter`
 try:
-    from xena_rfc_converter.entry import converter
-    from xena_rfc_converter.types import TestSuiteType
+    from xoa_converter.entry import converter
+    from xoa_converter.types import TestSuiteType
 except ImportError:
     print("XOA Converter is an independent module and it needs to be installed via `pip install xoa-converter`")
     sys.exit()

@@ -7,7 +7,7 @@ from typing import (
 )
 if TYPE_CHECKING:
     from xoa_driver import testers
-    from xena_rfc_core.core.generic_types import TMesagesPipe
+    from xoa_core.core.generic_types import TMesagesPipe
 
 from .pool import ResourcesPool
 from .resource.facade import Resource

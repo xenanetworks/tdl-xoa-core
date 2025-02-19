@@ -2,13 +2,13 @@ import asyncio
 import contextlib
 import uuid
 import typing
-from xena_rfc_core.core.generic_types import (
+from xoa_core.core.generic_types import (
     TObserver,
     TMesagesPipe,
 )
 if typing.TYPE_CHECKING:
-    from xena_rfc_core.types import PluginAbstract
-    from xena_rfc_core.core.plugin_abstract import (
+    from xoa_core.types import PluginAbstract
+    from xoa_core.core.plugin_abstract import (
         PStateConditionsFacade,
         PPipeFacade
     )

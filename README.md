@@ -1,6 +1,6 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/xoa-core) [![PyPI](https://img.shields.io/pypi/v/xoa-core)](https://pypi.python.org/pypi/xoa-core) ![GitHub](https://img.shields.io/github/license/xenanetworks/open-automation-core) [![Documentation Status](https://readthedocs.com/projects/xena-networks-open-automation-core/badge/?version=latest)](https://docs.xenanetworks.com/projects/xoa-core/en/latest/?badge=latest)
 
-# Xena OpenAutomation Test Suite - Core
+# XOA Core
 Xena OpenAutomation Core (XOA Core) is an open-source test suite framework for network automation and testing. It is designed to host various [XOA Test Suites](https://github.com/xenanetworks/open-automation-test-suites) as plugins, allowing users to create, manage, and run test cases for different network scenarios. The XOA Core framework serves as the foundation for building and executing test suites in the XOA ecosystem.
 
 Key features of XOA Core include:
@@ -62,11 +62,11 @@ Your project folder will look like this afterwards.
 ```
 
 
-### Run Tests from Valkyrie RFC Test Suite Configurations
+### Run Tests from Xena RFC Test Suite Configurations
 
 > Read more about [XOA Config Convert](https://docs.xenanetworks.com/projects/xoa-config-converter)
 
-Copy your Valkyrie test configurations into ```/my_xoa_project``` for easy access. Then create a ```main.py``` file inside the folder ```/my_xoa_project```.
+Copy your Xena test configurations into ```/my_xoa_project``` for easy access. Then create a ```main.py``` file inside the folder ```/my_xoa_project```.
 
 ```
 /my_xoa_project
@@ -134,7 +134,7 @@ async def main() -> None:
     # Subscribe to test resource notifications.
     asyncio.create_task(subscribe(ctrl, channel_name=types.PIPE_RESOURCES))
 
-    # Convert Valkyrie 2544 config into XOA 2544 config and run.
+    # Convert Xena 2544 config into XOA 2544 config and run.
     with open(OLD_2544_CONFIG, "r") as f:
         # get rfc2544 test suite information from the core's registration
         info = ctrl.get_test_suite_info("RFC-2544")
@@ -173,8 +173,3 @@ if __name__ == "__main__":
 XOA Core sends test result data (in JSON format) to your code as shown in the example below. It is up to you to decide how to process it, either parse it and display in your console, or store them into a file.
 
 > Read about [Test Result Types](https://docs.xenanetworks.com/projects/xoa-core/en/latest/understand_xoa_core/test_result_types.html)
-
-
-***
-
-FOR TESTING BEYOND THE STANDARD.

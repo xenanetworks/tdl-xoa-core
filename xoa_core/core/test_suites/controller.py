@@ -9,7 +9,7 @@ from typing import (
     List,
 )
 
-from xena_rfc_core.core import exceptions
+from xoa_core.core import exceptions
 from . import datasets
 from . import _loader as loader
 

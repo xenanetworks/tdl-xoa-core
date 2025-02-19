@@ -1,7 +1,7 @@
 Introduction
 =============
 
-The Xena Python RFC Core is an asynchronous Python framework that can be represented by four subsystems:
+The XOA Core is an asynchronous Python framework that can be represented by four subsystems:
 
 1. :doc:`resource_mgt_sys` lets you manage testers, i.e. add, remove, connect, disconnect, and view a list of available testers.
 
@@ -15,4 +15,4 @@ The Xena Python RFC Core is an asynchronous Python framework that can be represe
 
 .. image:: ../_static/simplified_xoa_core.png
     :width: 600
-    :alt: Xena Python RFC Core subsystems diagram overview
+    :alt: XOA Core subsystems diagram overview

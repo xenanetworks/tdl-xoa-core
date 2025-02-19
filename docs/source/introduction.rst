@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Xena Python RFC Core is an open-source test suite framework for network automation and testing. It is designed to host various `Xena Python RFC Test Suites <https://github.com/xenanetworks/open-automation-test-suites>`_ as plugins, allowing users to create, manage, and run test cases for different network scenarios. The Xena Python RFC Core framework serves as the foundation for building and executing test suites in the XOA ecosystem.
+XOA Core is an open-source test suite framework for network automation and testing. It is designed to host various `XOA Python RFC Test Suites <https://github.com/xenanetworks/tdl-xoa-rfc-test-suites>`_ as **plugins**, allowing users to create, manage, and run test cases for different network scenarios. The XOA Core framework serves as the foundation for building and executing test suites in the XOA ecosystem.
 
 Key features include:
 
@@ -15,16 +15,6 @@ Key features include:
 
 5. Logging and reporting: Offers built-in logging and reporting functionality, generating detailed test reports to help users analyze test results and identify issues.
 
-The `official documentation <https://docs.xenanetworks.com/projects/xena-python-rfc-core>`_ provides a comprehensive guide on how to install, configure, and use Xena Python RFC Core. It covers topics such as setting up the environment, creating test suites, executing test cases, and analyzing test results. The documentation also includes a reference for Xena Python RFC Core's API and example test suites to help users get started with their test automation projects.
+This document provides a comprehensive guide on how to install, configure, and use XOA Core. It covers topics such as setting up the environment, creating test suites, executing test cases, and analyzing test results. The documentation also includes a reference for XOA Core's API and example test suites to help users get started with their test automation projects.
 
-.. image:: ./_static/OPENAUTOMATION-2554.png
-    :width: 150
-    :alt: XOA2544
 
-.. image:: ./_static/OPENAUTOMATION-2889.png
-    :width: 150
-    :alt: XOA2544
-
-.. image:: ./_static/OPENAUTOMATION-3918.png
-    :width: 150
-    :alt: XOA2544

@@ -1,5 +1,5 @@
 from __future__ import annotations
-from xena_rfc_core import (
+from xoa_core import (
     controller,
     types,
 )

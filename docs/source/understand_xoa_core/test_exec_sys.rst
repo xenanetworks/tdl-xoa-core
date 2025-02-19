@@ -1,7 +1,7 @@
 Test Execution System
 ======================
 
-Xena Python RFC Core provides the following controlling methods of test suite execution:
+XOA Core provides the following controlling methods of test suite execution:
 
 * Start test
 * Pause/continue test
