@@ -52,10 +52,10 @@ title = f"Xena Python RFC Core Documentation"
 output_basename = f"xena_python_rfc_core_doc"
 
 # The full version, including alpha/beta/rc tags.
-release = get_version("../../xena_rfc_core/__init__.py")
+release = get_version("../../xoa_core/__init__.py")
 
 # The short X.Y version.
-version = get_short_version("../../xena_rfc_core/__init__.py")
+version = get_short_version("../../xoa_core/__init__.py")
 
 
 # -- General configuration -----------------------------------------------------
