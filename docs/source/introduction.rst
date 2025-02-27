@@ -1,7 +1,7 @@
 Introduction
 ============
 
-XOA Core is an open-source test suite framework for network automation and testing. It is designed to host various `XOA Python RFC Test Suites <https://github.com/xenanetworks/tdl-xoa-rfc-test-suites>`_ as **plugins**, allowing users to create, manage, and run test cases for different network scenarios. The XOA Core framework serves as the foundation for building and executing test suites in the XOA ecosystem.
+XOA Core is an open-source test suite framework for network automation and testing. It is designed to host various `XOA RFC Test Suites <https://github.com/xenanetworks/tdl-xoa-rfc-test-suites>`_ as **plugins**, allowing users to create, manage, and run test cases for different network scenarios. The XOA Core framework serves as the foundation for building and executing test suites in the XOA ecosystem.
 
 Key features include:
 

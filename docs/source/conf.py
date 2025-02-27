@@ -45,11 +45,11 @@ def get_short_version(rel_path):
 company = f"Teledyne LeCroy Xena"
 year = datetime.datetime.today().year
 month = datetime.datetime.today().month
-project = f"Xena Python RFC Core"
+project = f"XOA Core"
 copyright = f"{year}, {company}"
 author = company
-title = f"Xena Python RFC Core Documentation"
-output_basename = f"xena_python_rfc_core_doc"
+title = f"XOA Core Documentation"
+output_basename = f"tdl_xoa_core_doc"
 
 # The full version, including alpha/beta/rc tags.
 release = get_version("../../xoa_core/__init__.py")
