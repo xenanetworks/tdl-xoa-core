@@ -1,4 +1,4 @@
-xena_driver
+tdl-xoa-driver
 typing-extensions>=3.7.4.3
 pydantic==1.10.2
 semver==2.13.0
