@@ -1,7 +1,7 @@
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/xoa-core) [![PyPI](https://img.shields.io/pypi/v/xoa-core)](https://pypi.python.org/pypi/xoa-core) ![GitHub](https://img.shields.io/github/license/xenanetworks/open-automation-core) [![Documentation Status](https://readthedocs.com/projects/xena-networks-open-automation-core/badge/?version=latest)](https://docs.xenanetworks.com/projects/xoa-core/en/latest/?badge=latest)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tdl-xoa-core) [![PyPI](https://img.shields.io/pypi/v/tdl-xoa-core)](https://pypi.python.org/pypi/tdl-xoa-core) [![Documentation Status](https://readthedocs.com/projects/xena-networks-dl-xoa-core/badge/?version=latest)](https://docs.xenanetworks.com/projects/dl-xoa-core/en/latest/?badge=latest)
 
 # XOA Core
-Xena OpenAutomation Core (XOA Core) is an open-source test suite framework for network automation and testing. It is designed to host various [XOA Test Suites](https://github.com/xenanetworks/open-automation-test-suites) as plugins, allowing users to create, manage, and run test cases for different network scenarios. The XOA Core framework serves as the foundation for building and executing test suites in the XOA ecosystem.
+Xena OpenAutomation Core (XOA Core) is an open-source test suite framework for network automation and testing. It is designed to host various [XOA RFC Test Suites](https://github.com/xenanetworks/tdl-xoa-rfc-test-suites) as plugins, allowing users to create, manage, and run test cases for different network scenarios. The XOA Core framework serves as the foundation for building and executing test suites in the XOA ecosystem.
 
 Key features of XOA Core include:
 
@@ -14,11 +14,12 @@ Key features of XOA Core include:
 4. Extensibility: The framework is designed to be extensible, allowing users to develop custom test suites and plugins to address specific testing requirements.
 
 5. Logging and reporting: XOA Core offers built-in logging and reporting functionality, generating detailed test reports to help users analyze test results and identify issues.
-Xena OpenAutomation (XOA) Core is the framework that provides a standardized way for developers and test specialists to execute, develop, and integrate test suites, as well as managing Xena's physical and virtual Traffic Generation and Analysis (TGA) testers.
+
+XOA Core is the framework that provides a standardized way for developers and test specialists to execute, develop, and integrate test suites, as well as managing Xena's physical and virtual Traffic Generation and Analysis (TGA) testers.
 
 ## Documentation
 The user documentation is hosted:
-[Xena OpenAutomation Core Documentation](https://docs.xenanetworks.com/projects/xoa-core)
+[XOA Core Documentation](https://docs.xenanetworks.com/projects/tdl-xoa-core)
 
 
 ## Step-by-Step
@@ -39,11 +40,11 @@ Let's create a folder called ```/my_xoa_project```
 ### Install XOA Core and XOA Converter
 
 
-After creating the folder, install ```xoa-core``` and ```xoa-converter```using pip:
+After creating the folder, install ```tdl-xoa-core``` and ```tdl-xoa-converter```using pip:
 
 ```
-pip install xoa-core -U
-pip install xoa-converter -U
+pip install tdl-xoa-core -U
+pip install tdl-xoa-converter -U
 ```
 
 ### Place Test Suite Plugins
@@ -94,12 +95,12 @@ from xoa_core import (
 import asyncio
 import json
 from pathlib import Path
-# XOA Converter is an independent module and it needs to be installed via `pip install xoa-converter`
+# XOA Converter is an independent module and it needs to be installed via `pip install tdl-xoa-converter`
 try:
     from xoa_converter.entry import converter
     from xoa_converter.types import TestSuiteType
 except ImportError:
-    print("XOA Converter is an independent module and it needs to be installed via `pip install xoa-converter`")
+    print("XOA Converter is an independent module and it needs to be installed via `pip install tdl-xoa-converter`")
     sys.exit()
 
 PROJECT_PATH = Path(__file__).parent
@@ -172,4 +173,4 @@ if __name__ == "__main__":
 
 XOA Core sends test result data (in JSON format) to your code as shown in the example below. It is up to you to decide how to process it, either parse it and display in your console, or store them into a file.
 
-> Read about [Test Result Types](https://docs.xenanetworks.com/projects/xoa-core/en/latest/understand_xoa_core/test_result_types.html)
+> Read about [Test Result Types](https://docs.xenanetworks.com/projects/tdl-xoa-core/en/latest/understand_xoa_core/test_result_types.html)
