@@ -1,7 +1,21 @@
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tdl-xoa-core) [![PyPI](https://img.shields.io/pypi/v/tdl-xoa-core)](https://pypi.python.org/pypi/tdl-xoa-core) [![Documentation Status](https://readthedocs.com/projects/xena-networks-dl-xoa-core/badge/?version=latest)](https://docs.xenanetworks.com/projects/dl-xoa-core/en/latest/?badge=latest)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tdl-xoa-core) [![PyPI](https://img.shields.io/pypi/v/tdl-xoa-core)](https://pypi.python.org/pypi/tdl-xoa-core) [![Documentation Status](https://readthedocs.com/projects/xena-networks-tdl-xoa-core/badge/?version=latest)](https://docs.xenanetworks.com/projects/tdl-xoa-core/en/latest/?badge=latest)
 
 # XOA Core
-Xena OpenAutomation Core (XOA Core) is an open-source test suite framework for network automation and testing. It is designed to host various [XOA RFC Test Suites](https://github.com/xenanetworks/tdl-xoa-rfc-test-suites) as plugins, allowing users to create, manage, and run test cases for different network scenarios. The XOA Core framework serves as the foundation for building and executing test suites in the XOA ecosystem.
+XOA Core is an open-source test suite framework for network automation and testing. It is designed to host various [XOA RFC Test Suites](https://github.com/xenanetworks/tdl-xoa-rfc-test-suites) as plugins, allowing users to create, manage, and run test cases for different network scenarios. The XOA Core framework serves as the foundation for building and executing test suites in the XOA ecosystem.
+
+```
++------------+
+|            |   +-------------+
+|            | - | plugin2544  |
+|            |   +-------------+
+|            |   +-------------+
+|  XOA Core  | - | plugin2889  |
+|            |   +-------------+
+|            |   +-------------+ 
+|            | - | plugin3918  |
+|            |   +-------------+   
++------------+
+```
 
 Key features of XOA Core include:
 
