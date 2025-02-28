@@ -7,7 +7,7 @@ def main() -> None:
 
     setuptools.setup(
         name="tdl-xoa-core",
-        description="Xena Python RFC framework for Xena test suite execution, integration, and development.",
+        description="XOA framework for Xena test suite execution, integration, and development.",
         long_description=long_description,
         long_description_content_type="text/markdown",
         author="Leonard Yu",
