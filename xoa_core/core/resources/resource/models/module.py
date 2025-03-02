@@ -10,7 +10,7 @@ from typing import (
     Optional,
 )
 from pydantic import BaseModel
-from typing_extensions import Self
+from typing import Self
 from xoa_driver import (
     enums,
     modules,
