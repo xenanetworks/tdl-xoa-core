@@ -95,6 +95,5 @@ class Plugin:
 def build_test_params(_test_config: Type["BaseModel"]) -> Type["TestParameters"]:
     class TP(TestParameters):
         config: _test_config
-
-    TP.update_forward_refs(_test_config=_test_config)
+    TP.model_rebuild()
     return TP
