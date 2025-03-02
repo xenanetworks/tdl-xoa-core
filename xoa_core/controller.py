@@ -3,7 +3,7 @@ from __future__ import annotations
 import typing
 from pathlib import Path
 
-from typing_extensions import Self
+from typing import Self
 
 from .core import const
 from .core.executors.executor import SuiteExecutor
