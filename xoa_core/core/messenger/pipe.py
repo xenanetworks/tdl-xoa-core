@@ -20,7 +20,7 @@ class MesagesPipe:
         self.__queue: "asyncio.Queue[misc.Message]" = asyncio.Queue()
         self.__observer = observer
         self.__lock = asyncio.Lock()
-        self.__push_streams: dict[str, asyncio.Queue["misc.Message" | None]] = {}
+        self.__push_streams: "dict[str, asyncio.Queue[misc.Message | None]]" = {}
         self.__procesor = asyncio.create_task(
             self.__worker(),
             name=f"MessagesPipe[{self.name}]"

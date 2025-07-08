@@ -48,7 +48,7 @@ class ModuleModel:
         self.serial_number = value.serial_number
 
     @classmethod
-    async def from_module(cls: Type[Self], tester_id: TesterID, module: "modules.GenericAnyModule", notifier: Callable) -> Self:
+    async def from_module(cls, tester_id: TesterID, module: "modules.GenericAnyModule", notifier: Callable) -> Self:
         module_id = ModuleID(f"{tester_id}-{module.module_id}")
         inst = cls(
             id=module_id,
@@ -89,7 +89,7 @@ class ModuleInfoModel(BaseModel):
     index: int
     model: str
     reserved_by: str
-    ports: Tuple[PortInfoModel, ...]
+    ports: tuple[PortInfoModel, ...]
     name: str
     can_media_config: bool
     is_chimera: bool
