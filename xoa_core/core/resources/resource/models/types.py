@@ -7,8 +7,8 @@ from pydantic import SecretStr
 
 
 TesterID = NewType("TesterID", str)
-ModuleID = NewType("TesterID", str)  # <TesterID>-<Module Slot Index>
-PortID = NewType("TesterID", str)  # <TesterID>-<ModuleID>-<Port Index>
+ModuleID = NewType("ModuleID", str)  # <TesterID>-<Module Slot Index>
+PortID = NewType("PortID", str)  # <TesterID>-<ModuleID>-<Port Index>
 JsonStr = NewType("JsonStr", str)
 
 
