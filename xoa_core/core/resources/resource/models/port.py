@@ -88,7 +88,7 @@ async def _prepare_values(port: "ports.GenericAnyPort") -> dict[str, Any]:
     if not isinstance(port, (ports.PortL47, ports.PortL23VE)):
         if not isinstance(port, ports.PortChimera):
             ms, cur, red, tx_pl = await utils.apply(
-                port.speed.mode.selection.get(),
+                port.speed.selection.get(),
                 port.speed.current.get(),
                 port.speed.reduction.get(),
                 port.tx_config.packet_limit.get()
