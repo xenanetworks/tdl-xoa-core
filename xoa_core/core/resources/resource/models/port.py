@@ -68,8 +68,8 @@ class PortModel:
     @classmethod
     async def from_port(cls: Type[Self], module_id: ModuleID, port: "ports.GenericAnyPort", notifier: Callable) -> Self:
         inst = cls(
-            id=PortID(f"{module_id}-{port.kind.port_id}"),
-            index=port.kind.port_id,
+            id=PortID(f"{module_id}-{port.identity.port_id}"),
+            index=port.identity.port_id,
             model=port.info.interface,
             reserved_by=port.info.reserved_by,
             sync_status=getattr(port.info, "sync_status", None),
